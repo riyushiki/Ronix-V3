@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`random.choice should choose values with replacement 1`] = `
+Array [
+  4,
+  5,
+  3,
+  9,
+  0,
+  7,
+  2,
+  3,
+  2,
+  3,
+  0,
+  9,
+  3,
+  8,
+  6,
+  5,
+  7,
+  2,
+  5,
+  5,
+]
+`;
+
+exports[`random.choice should select elements without replacement 1`] = `
+Array [
+  4,
+  5,
+  3,
+  9,
+  0,
+  7,
+  1,
+  2,
+  6,
+  8,
+]
+`;
+
+exports[`random.random should generate random numbers 1`] = `
+Array [
+  0.36992722749710083,
+  0.009614884853363037,
+  0.11960279941558838,
+  0.541417121887207,
+  0.07362216711044312,
+  0.20413708686828613,
+  0.36353737115859985,
+  0.18186044692993164,
+  0.9514840841293335,
+  0.7254511713981628,
+]
+`;
+
+exports[`random.randomSample should generate an array of random numbers 1`] = `
+Array [
+  0.7623295187950134,
+  0.24819517135620117,
+  0.6318815350532532,
+  0.5753740072250366,
+  0.860216498374939,
+  0.2248849868774414,
+  0.8180570006370544,
+  0.8344047665596008,
+  0.8892887234687805,
+  0.47667670249938965,
+]
+`;

@@ -1,0 +1,58 @@
+{
+  "name": "assign-symbols",
+  "description": "Assign the enumerable es6 Symbol properties from one or more objects to the first object passed on the arguments. Can be used as a supplement to other extend, assign or merge methods as a polyfill for the Symbols part of the es6 Object.assign method.",
+  "version": "2.0.2",
+  "homepage": "https://github.com/jonschlinkert/assign-symbols",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/assign-symbols",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/assign-symbols/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "assign",
+    "es6",
+    "merge",
+    "mixin",
+    "polyfill",
+    "primitive",
+    "symbol",
+    "symbols"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "assign-deep",
+        "clone-deep",
+        "extend-shallow",
+        "merge-deep",
+        "mixin-deep"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
