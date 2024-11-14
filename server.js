@@ -8,7 +8,7 @@ const User = require('./models/User');
 const Game = require('./models/Game');
 
 const app = express();
-const port = 3000;
+const port = 3003;
 
 const jwtSecret = 'secureSecretKey';
 
